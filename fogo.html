@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> fogo</title>
+    </head>
+    <style>
+        html,
+        body{
+            height: 100%;
+        }
+        body{
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        .fireplace{
+            width: 320px;
+            height: 320px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            &--flame, &--flame-big {
+                height: 250px;
+                width: 180px;
+                background: $fire;
+                position:relative::after
+            }
+        }
+    </style>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formularios</title>
+        <style>
+            h1:hover{
+                color:white;
+                background-color: black;
+            }
+            #nome{
+                font-family: fantasy;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 style="text-align: center;"> Formulários HTML</h1>
+        <hr>
+        <h2>Input text</h2>
+            
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" value="Yasmim">
+            <br><br>
+            <label for="cidade">Cidade:</label><br>
+            <input type="text" id="cidade" name="cidade" value="campina verde">
+            </form>
+
+        <hr>
+         <h2>Input radio</h2>
+         <p>Escolha sua comida favorita</p>
+
+        <form>
+
+         <input type="radio" id="pizza" name="comida_favorita" value="pizza"> 
+         <label for="pizza">Pizza</label><br>
+         <input type="radio" id="lanche" name="comida_favorita" value="lanche"> 
+         <label for="lanche">Lanche</label><br>
+         <input type="radio" id="lasanha" name="comida_favorita" value="lasanha"> 
+         <label for="lasanha">Lasanha</label><br>
+        </form>
+
+        <hr>
+        <h2>Input Checkbox</h2>
+
+        <form>
+         <input type="checkbox" id="bicicleta" name="bicicleta" value="bicicleta">
+         <label for="bicicleta"> Eu tenho uma bicicleta</label><br>
+         <input type="checkbox" id="skate" name="skate" value="skate">
+         <label for="skate"> Eu tenho um skate</label><br>
+         <input type="checkbox" id="moto" name="moto" value="moto">
+         <label for="moto"> Eu tenho uma moto</label>
+
+        </form>
+
+        <hr>
+        <h2>Input Submit</h2>
+
+        <form action="welcome.html" method="get">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" value="Yasmim Angelica da Cruz">
+            <br><br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" value="Campina Verde">
+            <br><br>
+            <input type="submit" value="confia e clica">
+        </form>
+
+    </body>
+</html>
