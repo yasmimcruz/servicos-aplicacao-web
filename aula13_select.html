@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formularios</title>
+        <script>
+            function visualizarMensagem(){
+                alert ('Olá mundo! Minha primeira função em JavaScript!')
+
+            }
+            function incluirParametro(a, b){
+                alert(a + b)
+            }
+        </script>
+    </head>
+
+    <body style="background-color: lightblue;">
+        <h1 style="text-align: center;">formularios html</h1>
+        <h2>Elemento Select</h2>
+        <form action="welcome.html" method="POST">
+            <label for="cidades">Escolha a cidade:</label><br>
+            <select id="cidades" name="cidades">
+                <option value="campinaVerde">Campina Verde</option>
+                <option value="ituiutaba">Ituiutaba</option>
+                <option value="uberlandia" selected>Uberlândia</option>
+                <option value="uberaba">Uberaba</option>
+            </select>
+        </form>
+
+        <hr>
+        <h2>Elemento TextArea</h2>
+        <form>
+            <label for="resumo">Escreva por que você escolheu a cidade acima</label><br><br>
+            <textarea id="resumo" name="resumo" style="width: 400px; height: 200px;">Insira seu resumo aqui</textarea>
+        </form>
+
+        <hr>
+        <h2>Elemento button</h2>
+        <form>
+            <button type="button" onclick="alert('Me chamo Yasmim!')">Clique aqui</button>
+            <br><br>
+            <button type="button" onclick="visualizarMensagem()">Clique aqui</button>
+            <br><br>
+            <button  type="button" onclick="incluirParametro('OLA ','MUNDO')">Clique aqui</button>
+        </form>
+
+        <hr>
+        <h2>Elementos fieldset e legend</h2>
+        <form action="welcome.html">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <label for="name">Primeiro nome:</label>
+            <input type="text" id="nome" name="nome" value="Yasmim">
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" value="Campina Verde">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+         <hr>
+         <h2> Elemento datalist</h2>
+         <form action="welcome.html">
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Safari">
+                <option value="Opera">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Internet Explorer">
+            </datalist>
+         </form>
+
+    </body>
+
+</html>
