@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inputs</title>
+    </head>
+
+    <body>
+        <h1 style="text-align: center;"> Formulários HTML</h1>
+        <hr>
+        <h2>Input text</h2> 
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" value="Yasmim">
+            <br><br>
+            <label for="cidade">Cidade:</label><br>
+            <input type="text" id="cidade" name="cidade" value="campina verde">
+            </form>
+
+            <hr>
+            <h2>Input Password</h2>
+            <form>
+                <label for="nome">Usuário:</label><br>
+                <input type="text" id="nome" name="nome">
+                <br><br>
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha">
+            </form>
+
+            <hr>
+        <h2>Input Submit</h2>
+
+        <form action="welcome.html" method="get">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" value="Yasmim Angelica da Cruz">
+            <br><br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" value="Campina Verde">
+            <br><br>
+            <input type="submit" value="confia e clica">
+        </form>
+
+        <hr>
+        <h2>Input Reset</h2>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" value="Yasmim Angelica da Cruz">
+            <br><br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" value="Campina Verde">
+            <br><br>
+            <input type="reset" value="Redefinir">
+        </form>
+
+        <hr>
+         <h2>Input radio</h2>
+         <p>Escolha sua comida favorita</p>
+        <form>
+         <input type="radio" id="pizza" name="comida_favorita" value="pizza"> 
+         <label for="pizza">Pizza</label><br>
+         <input type="radio" id="lanche" name="comida_favorita" value="lanche"> 
+         <label for="lanche">Lanche</label><br>
+         <input type="radio" id="lasanha" name="comida_favorita" value="lasanha"> 
+         <label for="lasanha">Lasanha</label><br>
+        </form>
+
+        <hr>
+        <h2>Input Checkbox</h2>
+        <form>
+         <input type="checkbox" id="bicicleta" name="bicicleta" value="bicicleta">
+         <label for="bicicleta"> Eu tenho uma bicicleta</label><br>
+         <input type="checkbox" id="skate" name="skate" value="skate">
+         <label for="skate"> Eu tenho um skate</label><br>
+         <input type="checkbox" id="moto" name="moto" value="moto">
+         <label for="moto"> Eu tenho uma moto</label>
+        </form>
+
+        <hr>
+        <h2>Input Button</h2>
+        <form>
+            <input type="button" onclick="alert('Hello World!')" value="clique aqui!">
+        </form>
+
+        <hr>
+        <h2>Input Color</h2>
+        <form>
+            <label for="favcolor">Selecione sua cor favorita:</label>
+            <br>
+            <input type="color" id="favcolor" name="favcolor">
+        </form>
+
+        <hr>
+        <h2>Input Date</h2>
+        <form>
+            <label for="aniversario">Aniversário:</label>
+            <br>
+            <input type="date" id="aniversario" name="aniversario">
+        </form>
+
+        <hr>
+        <h2>Input Datetime-local</h2>
+        <form>
+            <label for="aniversario">Aniversário (data e hora):</label>
+            <br>
+            <input type="datetime-local" id="aniversario" name="aniversario">
+        </form>
+
+        <form>
+        <hr>
+        <h2>Input email</h2>
+        <label for="email">Informe seu e-mail:</label>
+        <br>
+        <input type="email" id="email" name="email">
+        </form>
+
+        <hr>
+        <h2>Imput Image</h2>
+        <form action="welcome.html">
+            <input type="image" src="Submit-Button-PNG-Image.png" alt="Submit" width="48px" height="48px">
+        </form>
+
+        <hr>
+        <h2>Input file</h2>
+        <form>
+            <label for="meuArquivo">Selecione um arquivo:</label>
+            <br>
+            <input type="file" id="meuArquivo" name="meuArquivo">
+        </form>
+
+        <hr>
+        <h2>Input Month</h2>
+        <form>
+            <label for="mesAnoAniversario">Aniversário (mes e ano):</label>
+            <br>
+            <input type="month" id="mesAnoAniversario" name="mesAnoAniversario">
+        </form>
+
+        <hr>
+        <h2>Input Number</h2>
+        <form>
+            <label for="quantity">Quantidade:</label>
+            <br>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+        </form>
+
+        <hr>
+        <h2>Input Vol</h2>
+        <form>
+            <label for="vol">Volume (entre 0  e 100):</label>
+            <input type="range" id="vol" name="vol" min="0" max="100" step="10">
+        </form>
+
+        <hr>
+        <h2>Input search</h2>
+        <form>
+            <label for="search">Pesquisar:</label>
+            <input type="search" id="pesquisar" name="pesquisar">
+        </form>
+
+        <hr>
+        <h2>Input Tel</h2>
+        <form>
+            <label for="telefone">Telefone:</label>
+            <br>
+            <input type="tel" id="telefone" name="telefone" min="1" max="5">
+        </form>
+
+        <hr>
+        <h2>Input Time</h2>
+        <form>
+            <label for="hora">Informe a hora da consulta:</label>
+            <br>
+            <input type="time" id="hora" name="hora">
+        </form>
+
+        <hr>
+        <h2>Input Week</h2>
+        <form>
+            <label for="semana">Selecione a semana:</label>
+            <br>
+            <input type="week" id="semana" name="semana">
+
+    </body>
+
+</html>
