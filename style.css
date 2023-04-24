@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    background-color: red;
+    color: violet ;
+    border: 2px solid black;
+}
+
+body{
+background-image: url(mustang.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+h2{
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    border-radius: 5px;
+}
+
+div{
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+p{
+    height: 100px;
+    width: 50%;
+    background-color: powderblue;
+}
+
+h3{
+    color: green;
+    text-align: center;
+    text-decoration-line: overline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: medium;
+}
